@@ -1,3 +1,7 @@
-img {
-    width: 50px;  
+img {                        /*  tamaño de iconos SOCIAL  */
+    width: 30px;
+}
+
+div a {
+   padding-right: 10px;
 }

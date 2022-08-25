@@ -1,0 +1,103 @@
+/*foto de perfil*/
+@media (min-width: 575px){
+    #perfil{ 
+        border: solid 4px white;
+        position: absolute;
+        width: 18%;  
+        left: 7%;  
+        margin-top: -10%;
+        }  
+
+ /* #bot-perfil{                        /* HABILITAR MAS TARDE /*
+        position: absolute;                    
+        left: 15%;
+        margin-top: -2%;
+
+    }   */
+
+}
+@media (max-width: 575px){
+    #perfil{
+        border: solid 4px white;
+        position: relative;
+        margin-top: -6%;
+        width: 30%;
+        left: 35%;
+    }
+/*  #bot-perfil{                        /* HABILITAR MAS TARDE /*
+        position: absolute;
+        left: 48%;
+        margin-top: -4%;
+    }   */
+}
+
+#alineado{
+    margin-top: 1%;
+    text-align: center;
+    margin-bottom: 10%;  
+    
+}
+@media(max-width: 575px){
+    #alineado-nombre{
+        margin-top: 2%;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+}
+
+@media(min-width: 575px){
+    #alineado-nombre{
+        margin-top: 9%;
+        background: center;
+        text-align: center;
+    }
+}
+
+/* tamaño de nombre: Lautaro Paz*/
+@media(max-width: 575px) {
+    #nombre{
+    font-weight: bolder;
+    font-size: 18px;
+    }
+}
+
+@media(min-width: 574px) {
+    #nombre{
+    font-weight: bolder;
+    font-size: 25px;
+    }
+}
+
+#nombre-profesion{
+    font-size: 16px;
+}
+#frase{
+   color: rgba(12, 4, 102, 0.692);
+   font-weight: bolder;
+}
+
+/* Sobre mi                             /* HABILITAR MAS TARDE /*
+@media(max-width: 575px){
+    #boton-sobre{
+        position: absolute;
+        margin: 105px;
+        margin-top: 55px;
+    }
+    #boton-sobremy{
+        position: relative;
+        margin-top: center;
+    }
+
+}
+@media(min-width: 575px){
+    #boton-sobre{
+        position: absolute;
+        margin: 105px;
+        margin-top: 60px;
+
+    }
+    #boton-sobremy{
+        position: relative;
+    }
+}
+*/
